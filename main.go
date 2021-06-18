@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/SimpleElect/elect"
+	"github.com/button-chen/SimpleElect/elect"
 	"log"
 	"net/http"
 	"os"
