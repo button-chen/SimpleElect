@@ -95,7 +95,6 @@ type SimpleElect struct {
 	leader           IpVal
 	minExpired       int    // default 5000ms
 	minActive        int    // default 300ms
-	debugVal         uint32 // debug
 	joinElect        bool
 	done             chan struct{}
 }
